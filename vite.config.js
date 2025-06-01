@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/NuestroRefugio/',
+  base: '/', // ← Cambiar a raíz para dominio personalizado
 })
